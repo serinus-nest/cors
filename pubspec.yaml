@@ -1,0 +1,13 @@
+name: serinus_cors
+description: "Hook to customize Cross-Origin Resource Sharing behaviour"
+version: 0.1.0
+repository: https://github.com/serinus-nest/cors
+documentation: https://docs.serinus.app/plugins/cors
+
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  serinus: ^0.4.1
+  
