@@ -8,7 +8,7 @@ A hook for Serinus applications 🐤 to customize Cross-Origin Resource Sharing 
 ## Installation
 
 ```bash
-dart pub add serinus_serve_static
+dart pub add serinus_cors
 ```
 
 ## Usage
