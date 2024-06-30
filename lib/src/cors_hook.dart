@@ -6,7 +6,7 @@ class CorsHook extends Hook {
   final List<String> allowedOrigins;
 
   /// The [CorsHook] constructor.
-  /// 
+  ///
   /// The [allowedOrigins] parameter is a list of allowed origins.
   CorsHook({this.allowedOrigins = const ['*']}) {
     _defaultHeaders = {
@@ -68,7 +68,7 @@ class CorsHook extends Hook {
 
     /// Stringify the headers.
     final stringHeaders =
-        headers.map((key, value) => MapEntry(key, value.join(',')));
+        headers.map((key, value) => MapEntry(key, value.toSet().join(',')));
     responseHeaders = {
       ...stringHeaders,
     };
